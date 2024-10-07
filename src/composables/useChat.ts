@@ -16,6 +16,12 @@ export const useChat = () => {
           message:'no',
           itsMine:false,
           image:'https://yesno.wtf/assets/yes/6-304e564038051dab8a5aa43156cdc20d.gif'
+        },
+        {
+          id: new Date().getTime() + 1,
+          message:'Cristian Chupalo',
+          itsMine:true,
+          image:'https://yesno.wtf/assets/yes/6-304e564038051dab8a5aa43156cdc20d.gif'
         }
       ]);
 

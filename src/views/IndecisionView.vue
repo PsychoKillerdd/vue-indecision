@@ -5,7 +5,8 @@
       </div>
       <ChatMessages :messages="messages" />
    <MessageBox @send-message="onMessage($event)"/>
-    </div>
+    
+  </div>
   </template>
 
 <script setup lang="ts">
